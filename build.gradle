@@ -24,8 +24,6 @@ dependencies {
 	nests ploceus.nests(project.nests_build) // remove this line if not using inner class patches
 
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-
-	ploceus.dependOsl(project.osl_version)
 }
 
 processResources {

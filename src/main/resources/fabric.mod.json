@@ -12,18 +12,13 @@
 	},
 	"license": "MIT",
 	"icon": "assets/better_map_display/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"init": [
-			"tech.williamist.bettermapdisplay.BetterMapDisplay"
-		]
-	},
+	"environment": "client",
+	"entrypoints": {},
 	"mixins": [
 		"better_map_display.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
-		"minecraft": "1.4.7",
-		"osl-entrypoints": ">=0.4.0"
+		"minecraft": "1.4.7"
 	}
 }
