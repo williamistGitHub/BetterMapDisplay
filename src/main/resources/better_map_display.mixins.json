@@ -3,12 +3,11 @@
 	"minVersion": "0.8",
 	"package": "tech.williamist.bettermapdisplay.mixin",
 	"compatibilityLevel": "JAVA_8",
-	"mixins": [
-	],
+	"mixins": [],
 	"client": [
+      "ItemFrameRendererMixin"
 	],
-	"server": [
-	],
+	"server": [],
 	"injectors": {
 		"defaultRequire": 1
 	}
